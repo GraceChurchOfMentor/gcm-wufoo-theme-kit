@@ -1,0 +1,20 @@
+{
+  "name": "gcm-wufoo-themes",
+  "version": "1.0.0",
+  "description": "- - - - - - - - - - - - - - - - - - - - -",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grace Church of Mentor",
+  "license": "GPLv2",
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.11",
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.4.0",
+    "jit-grunt": "^0.9.1",
+    "jshint": "^2.7.0"
+  }
+}

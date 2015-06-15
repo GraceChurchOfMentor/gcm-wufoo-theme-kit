@@ -1,0 +1,141 @@
+@import url('//gracechurchmentor.sharepoint.com///fonts.googleapis.com/css?family=Open+Sans:400italic,400,700%7COpen+Sans+Condensed:300');
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : GCM Wufoo Theme
+ Author : Grace Church of Mentor
+ URL : http://gracechurchmentor.org
+
+ Last Updated : May 21, 2015
+
+- - - - - - - - - - - - - - - - - - - - - */
+html {
+  background: none;
+  font-size: 62.5%;
+}
+body {
+  margin: 2rem 0;
+  background-color: #8b8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+  max-width: 100%;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+#logo {
+  background: none;
+  text-indent: 100%;
+  white-space: nowrap;
+  margin: 2rem 0;
+}
+#logo a {
+  background-image: url('//gracechurchmentor.sharepoint.com///www.gracechurchmentor.org/templates/gcm/images/gcm_logo_text.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 125px;
+  height: 70px;
+  margin: 0 auto;
+}
+form.wufoo {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0;
+  padding: 2rem;
+}
+form li.focused {
+  background-color: #fbfbfb;
+}
+.wufoo {
+  font-family: 'Open Sans', sans-serif;
+}
+.wufoo .info h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4.2rem;
+  font-weight: 300;
+  color: #333;
+}
+.wufoo .info div {
+  font-size: 1.8rem;
+  color: #666;
+}
+.wufoo label.desc {
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+}
+.wufoo input.text,
+.wufoo input.search,
+.wufoo textarea.textarea {
+  border: 3px solid #ccc;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+  box-shadow: none;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+.wufoo input.text:focus,
+.wufoo input.search:focus,
+.wufoo textarea.textarea:focus {
+  outline: none;
+  border-color: #fbb;
+}
+.wufoo input.btTxt {
+  background: #ccc;
+  color: #333;
+  border: none;
+  border-radius: .5rem;
+  padding: 1rem 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.safari .wufoo select.select {
+  border: 3px solid #ccc;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+  box-shadow: none;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+.safari .wufoo select.select:focus {
+  outline: none;
+  border-color: #fbb;
+}
+.wufoo input.radio,
+.wufoo input.checkbox {
+  position: relative;
+  visibility: hidden;
+}
+.wufoo input.radio:before,
+.wufoo input.checkbox:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: visible;
+  content: '';
+  display: inline-block;
+  border: 3px solid #ccc;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 1.4em;
+  height: 1.4em;
+}
+.wufoo input.radio:checked:before,
+.wufoo input.checkbox:checked:before {
+  border-color: #888;
+  background-color: #888;
+}
+.wufoo input.radio:before {
+  border-radius: 50%;
+}
+.wufoo input.checkbox:before {
+  border-radius: .5rem;
+}
